@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-group-2-_jpb3310__jpb3319-7-images_0000",
-      "name": "[Group 2]-_JPB3310__JPB3319-7 images_0000",
+      "id": "0-entrance",
+      "name": "Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -37,14 +37,14 @@ var APP_DATA = {
           "yaw": -0.014010636511251562,
           "pitch": 0.21486357370224596,
           "rotation": 0,
-          "target": "1-group-0-_jpb3292__jpb3298-7-images_0000"
+          "target": "1-dining-area"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-group-0-_jpb3292__jpb3298-7-images_0000",
-      "name": "[Group 0]-_JPB3292__JPB3298-7 images_0000",
+      "id": "1-dining-area",
+      "name": "Dining Area",
       "levels": [
         {
           "tileSize": 256,
@@ -79,26 +79,26 @@ var APP_DATA = {
           "yaw": 0.31860931513022805,
           "pitch": 0.4052468235915647,
           "rotation": 0,
-          "target": "2-group-1-_jpb3303__jpb3309-7-images_0000"
+          "target": "2-open-air-right"
         },
         {
           "yaw": 1.5868372608725991,
           "pitch": 0.2824963187772287,
           "rotation": 0,
-          "target": "0-group-2-_jpb3310__jpb3319-7-images_0000"
+          "target": "0-entrance"
         },
         {
           "yaw": 2.981001980563419,
           "pitch": 0.4852450734186107,
           "rotation": 0,
-          "target": "3-group-3-_jpb3320__jpb3326-7-images_0000"
+          "target": "3-open-air-left"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-group-1-_jpb3303__jpb3309-7-images_0000",
-      "name": "[Group 1]-_JPB3303__JPB3309-7 images_0000",
+      "id": "2-open-air-right",
+      "name": "Open Air Right",
       "levels": [
         {
           "tileSize": 256,
@@ -133,14 +133,14 @@ var APP_DATA = {
           "yaw": -2.765185409448467,
           "pitch": 0.5538784187286474,
           "rotation": 0,
-          "target": "1-group-0-_jpb3292__jpb3298-7-images_0000"
+          "target": "1-dining-area"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-group-3-_jpb3320__jpb3326-7-images_0000",
-      "name": "[Group 3]-_JPB3320__JPB3326-7 images_0000",
+      "id": "3-open-air-left",
+      "name": "Open Air Left",
       "levels": [
         {
           "tileSize": 256,
@@ -175,7 +175,7 @@ var APP_DATA = {
           "yaw": 1.401840669090765,
           "pitch": 0.46445162217428404,
           "rotation": 0,
-          "target": "1-group-0-_jpb3292__jpb3298-7-images_0000"
+          "target": "1-dining-area"
         }
       ],
       "infoHotspots": []
@@ -184,7 +184,7 @@ var APP_DATA = {
   "name": "Rustic Corner Bar and Grill",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
